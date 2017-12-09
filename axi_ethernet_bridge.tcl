@@ -7,7 +7,7 @@
 #### Change design settings here #######
 set design axi_ethernet_bridge
 set top axi_ethernet_bridge
-set device xc7z020clg400-1
+set device xc7z020clg484-1
 set proj_dir ./ip_proj
 set ip_version 1.00
 set lib_name Network
