@@ -57,9 +57,10 @@ module axi_ethernet_bridge #
     reg                        s_txd_tlast_r, s_txd_tlast_next;
 
     //debug
+    /*
     (* mark_debug = "yes" *) wire [7:0]      state_out = {4'b0,state};
-
     assign debug_bus [7:0]      = state_out;
+    */
     // ------------- Logic ----------------
 
     // AXIS
